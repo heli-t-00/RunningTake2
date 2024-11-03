@@ -101,16 +101,14 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: orange;
-}
+
 
 #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none;
+    list-style-type: none; /*this removes the bullet points in the list tag*/
 }
 
 #social-networks i {
