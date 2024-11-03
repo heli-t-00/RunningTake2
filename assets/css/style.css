@@ -29,6 +29,11 @@ h1, h2, h3 {
     color: #252525;
 }
 
+/*hides the meetup times heading instead of getting rid of the heading so that in google it can still be searchable, use class selector so can be used more than once*/
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -189,13 +194,13 @@ main {
     /* This will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row */
     flex-basis: 200px;
-    flex-grow: 1;
+    flex-grow: 1; /*allow box to expand*/
     /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
 }
 
 #times h3 {
-    /* Override the heading colour set in general styles */
+    /* Override the heading colour set in general styles as the Overlay is dark */
     color: #fafafa;
 }
 
